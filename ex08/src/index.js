@@ -36,5 +36,5 @@ function lookUpProfile(name, prop) {
     }
     return "No such contact";
 }
-console.log(lookUpProfile("Richard", "likes"));
+console.log(lookUpProfile("John", "likes"));
 module.exports = lookUpProfile;
